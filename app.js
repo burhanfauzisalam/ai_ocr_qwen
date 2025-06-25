@@ -5,7 +5,7 @@ const path = require("path");
 const fs = require("fs");
 
 const app = express();
-const port = 3000;
+const port = 1000;
 
 // Setup penyimpanan upload
 const upload = multer({ dest: "uploads/" });
